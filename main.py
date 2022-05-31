@@ -4,8 +4,8 @@ from collections import defaultdict
 import json
 from typing import List, Dict
 
-COST_THRESHOLD = 2.0
-TIME_THRESHOLD = 5
+COST_THRESHOLD = 2.0 # dollars
+TIME_THRESHOLD = 5 # days
 
 
 @dataclass
